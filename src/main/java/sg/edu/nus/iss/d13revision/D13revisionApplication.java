@@ -17,7 +17,7 @@ public class D13revisionApplication {
 
 		SpringApplication app = new SpringApplication(D13revisionApplication.class);
 
-		String port="8085";
+			String port="8080";
 		ApplicationArguments cliOpts = new DefaultApplicationArguments(args);
 
 		if (cliOpts.containsOption("port")) {
