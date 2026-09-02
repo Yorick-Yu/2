@@ -15,6 +15,9 @@
 	<description>Day 13 revision project for Spring Boot</description>
 	<properties>
 		<java.version>18</java.version>
+		<sonar.organization>yorick-yu</sonar.organization>
+		<sonar.projectKey>Yorick-Yu_2</sonar.projectKey>
+		<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 	</properties>
 	<dependencies>
 		<dependency>
